@@ -49,7 +49,7 @@ app/
 
 ### 1. Clone the project
 ```bash
-git clone <repository-url>
+git clone https://github.com/mmrahmanwritescode/laravel-inertia-vue-setup
 cd laravel-inertia-vue-setup
 ```
 
@@ -67,6 +67,16 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+### mysql sample database configuration inside .env file
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel-sample-db
+DB_USERNAME=your-mysql-server-username
+DB_PASSWORD=your-mysql-server-pwd
+```
+
 ## 🎨 Frontend Setup 
 
 ### 4. Install JavaScript dependencies 
@@ -79,6 +89,14 @@ npm install
 
 ```
 npm run dev
+```
+
+## Running the project 
+
+Finally, you can run the project with herd or simply with artisan command below 
+
+```
+php artisan serve
 ```
 
 ⭐ **If this project helped you, please give it a star!** ⭐
