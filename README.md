@@ -85,11 +85,7 @@ DB_PASSWORD=your-mysql-server-pwd
 npm install
 ```
 
-### 5. Run Dev Server
 
-```
-npm run dev
-```
 
 ## Running the project 
 
@@ -97,6 +93,12 @@ Finally, you can run the project with herd or simply with artisan command below
 
 ```
 php artisan serve
+```
+
+### Run frontend Dev Server
+
+```
+npm run dev
 ```
 
 ⭐ **If this project helped you, please give it a star!** ⭐
