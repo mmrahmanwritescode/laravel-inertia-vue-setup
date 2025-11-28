@@ -89,13 +89,13 @@ npm install
 
 ## Running the project 
 
-Finally, you can run the project with herd or simply with artisan command below 
+First, you can run the project with herd or simply with artisan command below 
 
 ```
 php artisan serve
 ```
 
-### Run frontend Dev Server
+Then, run frontend Dev Server
 
 ```
 npm run dev
