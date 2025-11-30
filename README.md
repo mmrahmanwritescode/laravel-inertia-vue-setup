@@ -67,7 +67,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-### mysql sample database configuration inside .env file
+### MySQL sample database configuration inside .env file
 ```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -89,7 +89,12 @@ npm install
 
 ## Running the project 
 
-First, you can run the project with herd or simply with artisan command below 
+### Migrate Database
+```
+php artisan migrate
+```
+
+### Run the project with herd or simply with artisan command below 
 
 ```
 php artisan serve
